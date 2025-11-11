@@ -4,7 +4,7 @@
 // Description  : This program simulates rolling 2 dice many times
 //                and finds how often each total (2–12) comes.
 // ------------------------------------------------------------
-
+// hello
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
