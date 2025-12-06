@@ -1,16 +1,16 @@
 {
-    "version": "0.2.0",
     "configurations": [
         {
-            "name": "C/C++ Run Only",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": true
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/mingw64f/mingw64/include"
+            ],
+            "compilerPath": "C:/mingw64f/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
         }
-    ]
+    ],
+    "version": 4
 }
