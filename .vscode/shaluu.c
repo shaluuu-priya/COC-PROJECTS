@@ -1,14 +1,21 @@
-#include<stdio.h>
-int main(){
-rand() and srand()
-#include<time.h>
-    int length=6;
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+
+    srand(time(NULL));  // Seed random generator
+
+    int length = 6;
     int i;
-printf("%d-digit otp is:",length);
-for(i=0;i<length;i++){
-    int digitr=rand()% 10;
-    print("%d", digit);
-}
-printf("\n");
-return 0;
+
+    printf("%d-digit OTP is: ", length);
+
+    for(i = 0; i < length; i++) {
+        int digit = rand() % 10;  // Generate random digit
+        printf("%d", digit);
+    }
+
+    printf("\n");
+    return 0;
 }
